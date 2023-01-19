@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import 'node_modules/@videostation/reportbuilder/elements';
+import '@videostation/reportbuilder/elements';
 
 @Component({
   selector: 'app-root',
