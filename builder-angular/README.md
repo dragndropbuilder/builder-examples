@@ -1,27 +1,56 @@
-# BuilderAngular
+## Quickstart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+1. Install 
+```
+npm i @videostation/reportbuilder
+```
+2. Add new `schemas: []` property with `CUSTOM_ELEMENTS_SCHEMA` value to `@NgModule` decorator of your `AppModule`
 
-## Development server
+Example of module implementation...
+```typescript
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+import { AppComponent } from './app.component';
 
-## Code scaffolding
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+})
+export class AppModule { }
+```
+Example of component implementation...
+```typescript
+import { Component } from '@angular/core';
+import '@videostation/reportbuilder/elements';
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+@Component({
+  selector: 'app-root',
+  template: '<vs-form-builder style="width: 100%;"></vs-form-builder>',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'VideoStation :: Builder';
+}
+```
 
-## Build
+## Development
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To get started:
 
-## Running unit tests
+```bash
+$ npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To see the demo app, run:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+$ npm start
+```
