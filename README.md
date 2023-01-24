@@ -1,6 +1,6 @@
-# builder-examples
+# Drag-n-drop Builder Example
 
-# Demo for Salesforce Cloud Applications
+# Sample for Salesforce Cloud Applications
 Developers can integrate VideoStation drag-n-drop UI builder in their javascript applications by including the script tag as shown below. 
 ```
 <script src="https://unpkg.com/@videostation/reportbuilder@latest/elements.js"></script>
@@ -17,5 +17,5 @@ To invoke the drag-n-drop builder in a javascript application, use web-component
 | | Link |
 -- | -- 
 Angular| [https://stackblitz.com/edit/angular-ivy-7h82w5?file=src%2Fapp%2Fapp.component.ts](https://stackblitz.com/edit/angular-ivy-7h82w5?file=src%2Fapp%2Fapp.component.ts)
-React | [https://react-ts-n8s1ok.stackblitz.io](https://react-ts-n8s1ok.stackblitz.io)
+React | [https://stackblitz.com/edit/react-ts-n8s1ok?file=App.tsx](https://stackblitz.com/edit/react-ts-n8s1ok?file=App.tsx)
 Vanilla JavaScript | [https://stackblitz.com/edit/js-wxtylw?file=index.js](https://stackblitz.com/edit/js-wxtylw?file=index.js)
