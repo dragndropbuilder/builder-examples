@@ -1,6 +1,12 @@
 # builder-examples
 
 # Demo
+<script src="https://unpkg.com/@videostation/reportbuilder@latest/elements.js"></script> 
+<body>
+    <vs-form-builder></vs-form-builder>
+  </body>
+  
+![image](https://user-images.githubusercontent.com/107889902/214405403-fef25596-2d3d-499a-83ea-0c09a8f12b1c.png)
 
 | | Link |
 -- | -- 
