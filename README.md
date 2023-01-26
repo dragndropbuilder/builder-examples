@@ -1,3 +1,6 @@
+# Purpose of Drag-n-drop builder
+Convert any frontend app into an editable frontend app. Give the users of the frontend-app to modify that frontend-app. Drag-n-drop builder takes a json and emits a json. Schema of json format is described in this gist.
+
 # Drag-n-drop Builder Examples
 
 ## Sample for Salesforce Cloud Applications
@@ -6,7 +9,7 @@ Developers can integrate VideoStation drag-n-drop UI builder in their javascript
 <script src="https://unpkg.com/@videostation/reportbuilder@latest/elements.js"></script>
 ``` 
 
-To invoke the drag-n-drop builder in a javascript application, use web-component vs-form-builder. 
+To instantiate the drag-n-drop builder in a javascript application, use web-component vs-form-builder. 
 ```
 <body>
     <vs-form-builder></vs-form-builder>
