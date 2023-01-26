@@ -1,5 +1,5 @@
 # Purpose of Drag-n-drop builder
-Convert any frontend app into an editable frontend app. Give the users of the frontend-app to modify that frontend-app. Drag-n-drop builder takes a json and emits a json. Schema of json format is described in this gist.
+Convert any frontend app into an editable frontend app. Give the users of the frontend-app to modify that frontend-app. Drag-n-drop builder takes a json and emits a json. Schema of json format is described in this [gist](https://github.com/dragndropbuilder/builder-examples/wiki/Json-Schema-for-data-exchange).
 
 # Drag-n-drop Builder Examples
 
